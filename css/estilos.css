@@ -1,20 +1,30 @@
-body {
-
+body { 
+    margin: 0 auto;
+    min-height: 768px; 
+    text-align: center; 
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
 }
-
 h1 {
-
+    background-color: #ffc402;
+    color: #eeff00;
+    border-left: 10px solid #88a000;
 }
 
 img {
+    border-radius: 10px;
+    border: 2px solid #000;
+} 
 
-}
+ul { 
+    list-style: none;
+} 
 
-ul {
-
-}
-
-li {
-
+li { 
+    border: 1px solid #000;
+    display: inline;
+    background-color: #ffdf75;
 }
 
